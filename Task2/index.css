@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+header .head-box {
+  width: 100%;
+  height: 90px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .head-box .navbar {
+  display: flex;
+  column-gap: 30px;
+}
+header .head-box .navbar > li {
+  font-size: 17px;
+}
+header .head-box .navbar > li:hover {
+  color: #d8ced6;
+  text-decoration: underline;
+}
+main .ads {
+  width: 70%;
+  min-height: 400px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .ads article {
+  width: calc(100% / 3);
+  height: 350px;
+  border: 1px solid #acc7c2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  row-gap: 11px;
+}
+main .ads article .item-name {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+main .ads article .price {
+  color: #82b0b0;
+  text-shadow: 2px 2px 4px #accece;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+main .ads article span:first-of-type {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+}
+main .ads .different {
+  text-align: center;
+}
+main .ads .different p:first-child {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 75px;
+  font-weight: 900;
+  color: #efb1b9;
+}
+main .ads .different p:nth-child(2) {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 27px;
+  font-weight: bold;
+  color: #efb1b9;
+}
+main .ads .different p:nth-child(3) {
+  color: #efb1b9;
+  font-size: 40px;
+}
+main .ads .different p:nth-child(4) {
+  color: #efb1b9;
+  font-size: large;
+  font-weight: bold;
+  padding: 35px;
+}
+main .ads article:nth-child(3) .various {
+  position: absolute;
+  align-self: flex-start;
+  top: 120px;
+  margin-left: 15px;
+  color: white;
+  font-size: large;
+}
+main .ads article:first-child {
+  overflow: hidden;
+}
+main .ads article:first-child img {
+  width: 190px;
+}
+main .ads article:nth-child(2) {
+  background-color: #f2f5fa;
+  overflow: hidden;
+}
+main .ads article:nth-child(2) img {
+  width: 190px;
+}
+main .ads article:nth-child(3) {
+  overflow: hidden;
+}
+main .ads article:nth-child(3) img {
+  width: 500px;
+  transform: translateX(110px) translateY(30px);
+}
+main .ads article:nth-child(3) {
+  background-color: #be8c51;
+  position: relative;
+  overflow: hidden;
+}
+main .ads article:nth-child(3) .box {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 60px solid black;
+  border-right: 60px solid transparent;
+  border-bottom: 0 solid transparent;
+  border-left: 60px solid transparent;
+  top: -8px;
+  left: -38px;
+  transform: rotate(135deg);
+}
+main .ads article:nth-child(3) .box .text {
+  position: relative;
+  top: -52px;
+  left: 31px;
+  color: white;
+  font-size: 18px;
+  transform: rotate(182deg);
+}
+main .ads article:nth-child(3) .box span {
+  color: white;
+  font-weight: bold;
+}
+main .ads article:nth-child(4) {
+  background-color: #df4b63;
+  overflow: hidden;
+}
+main .ads article:nth-child(5) {
+  overflow: hidden;
+}
+main .ads article:nth-child(5) img {
+  width: 280px;
+  transform: translateY(-20px);
+}
+main .ads article:nth-child(6) {
+  overflow: hidden;
+}
+main .ads article:nth-child(7) {
+  overflow: hidden;
+}
+main .ads article:nth-child(7) img {
+  width: 240px;
+}
+main .ads article:nth-child(8) {
+  overflow: hidden;
+}
+main .ads article:nth-child(9) {
+  overflow: hidden;
+}
+main .ads article:nth-child(9) img {
+  width: 200px;
+}
+main .ads a {
+  font-size: large;
+  margin: auto;
+  padding: 20px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+main .ads a:hover {
+  color: #d8ced6;
+  text-decoration: underline;
+}
+main .add {
+  width: 70%;
+  height: 100px;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #acc7c2;
+}
+main .add .icons {
+  font-size: 45px;
+}
+main .add input {
+  background-color: #aed9df;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  padding: 12px 26px;
+  font-weight: bold;
+}
+main .add .email {
+  background-color: #fcfafb;
+  border: 1px solid #acc7c2;
+  padding-right: 150px;
+  font-weight: 300;
+}
+footer {
+  background-color: black;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+footer .foot-head {
+  width: 70%;
+  margin: auto;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .foot-head h1 {
+  width: calc(100% / 2);
+}
+
+footer .foot-nav {
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  color: white;
+  padding-right: 25px;
+}
+footer .foot-navbar,
+footer .foot-sec-navbar {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  text-decoration: underline;
+  margin-right: 40px;
+}
+footer .help {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+footer .foot-nav .help .foot-icons {
+  font-size: 40px;
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 640px) {
+  header .head-box {
+    height: 180px;
+  }
+  header .head-box .navbar {
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: center;
+  }
+  main .ads {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  main .ads article {
+    width: 90%;
+  }
+  main .ads a {
+    height: 70px;
+  }
+  main .add {
+    flex-direction: column;
+    width: 90%;
+    height: 200px;
+  }
+  main .add .icons {
+  }
+  main .add .email {
+    width: 90%;
+  }
+  footer {
+    flex-direction: column;
+    height: 500px;
+  }
+  footer .foot-head {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+    text-align: justify;
+  }
+  footer .foot-nav {
+    row-gap: 8px;
+    width: 90%;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 35px;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+  main .ads {
+    width: 90%;
+  }
+  main .ads article {
+    width: calc(100% / 2);
+  }
+  main .ads a {
+    height: 70px;
+  }
+  main .add {
+    flex-direction: column;
+    width: 90%;
+    height: 200px;
+  }
+  main .add .email {
+    width: 90%;
+  }
+  footer .foot-head {
+    width: 90%;
+    text-align: justify;
+  }
+  footer .foot-nav {
+    row-gap: 8px;
+  }
+}
