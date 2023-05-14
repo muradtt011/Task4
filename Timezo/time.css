@@ -286,7 +286,3 @@ header .head-box .head-icons i:hover {
 .btna:hover::before {
   width: 100%;
 }
-.video {
-  width: 80%;
-  background-size: cover;
-}
